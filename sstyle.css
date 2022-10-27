@@ -1,0 +1,77 @@
+ html{
+    animation:imganimation;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+}
+    
+    /*background: linear-gradient(grey,black);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+p{
+    width: 100px;
+    background-color: red;
+    font-size: 85px;
+    text-align: center;
+    margin: 0px;
+
+}
+#p1{
+
+   
+}
+#p2{
+  /*  transform: translate(50px,50px);
+    transform: rotate(180deg);
+    transform: scale(1,1);
+    transform: skew(45deg);*/
+
+    /*transform: matrix(0.5,0,0,0.5,50,50); */
+/*
+scalex
+skewx
+skewy
+scaley
+translatex
+translatey
+*/
+.b1{
+  text-align:center;
+  position: absolute;
+  bottom: 0%;
+  left: 45%;
+}
+button{
+  background: linear-gradient(to right,#499aeb,#045fba);
+  border: 1px blue;
+  font-size: 30px;
+  color: black;
+  padding: 3px;
+  margin: 10px;
+  box-shadow: inset 5px 5px 10px #1d33de,5px 5px 10px #1d33de;
+  text-shadow: 1px 1px 1px #1d33de;
+  width: fit-content;
+  height: fit-content;
+  font-family: "balsamiq sans";
+  text-decoration: blue;
+  
+    
+}
+button a{
+  text-decoration: none;
+  color: blue;
+  
+}
+
+@keyframes imganimation {
+  0%{background-image:url("2.jpg");}
+  50%{background-image: url("3.jpg");}
+  100%{background-image:url("4.jpg");}
+}

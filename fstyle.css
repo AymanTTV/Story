@@ -1,0 +1,31 @@
+
+
+p{
+    font-family: "ink free","mv boli",sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 32px;
+    text-decoration: underline;
+    color: #7336EE;
+    
+}
+p{
+    padding: 50px;
+    border-style: solid;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #7336EE;
+    border-radius: 10px;
+
+}
+h1{
+    border: double;
+    border-width: 10px;
+    border-left-width: 10px;
+    font-family: "aldrich",sans-serif;
+    color: #00ff00;
+
+}
+body{
+    background-color: rgb(139, 143, 139);
+}

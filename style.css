@@ -1,0 +1,115 @@
+html{
+	background-image: url(Ashe.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+	
+}
+p{
+	font-weight: bold;
+	font-size: 20px;
+}
+.img2{
+	text-align: center;
+	
+	padding-bottom: 100px;
+
+}
+img{
+	width: 50px;
+	height: 50px;
+	
+}
+.box{
+	margin-top: 100px;
+	width: 300px;
+	padding-top: 50px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	text-align: center;
+}
+.box h1{
+	color: white;
+	text-transform: uppercase;
+    width: 500;
+	padding: 20px;
+}
+.box input[type= "text"],.box input[type="password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	font-weight: bold;
+	font-size: 15px;
+
+}
+.box input[type= "text"]:focus,.box input[type="password"]:focus{
+	width: 280px;
+	border-color: #2ecc71;
+}
+.box input[type="submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border-color: #3498db;
+	border: 2px solid ;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+
+}
+.box input[type="submit"]:hover{
+	color: blue;
+
+}
+.box input[type="submit"]{
+	border: 1px blue;
+    font-size: 20px;
+    
+	box-shadow: inset 4px 4px 5px #1d33de,4px 4px 5px #1d33de;
+    text-shadow: 3px 3px 3px #1d33de;
+	
+    font-family: "balsamiq sans";
+    text-decoration: blue;
+    
+
+
+}
+button::before{
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    background: blue;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: perspective(10px) rotatex(40deg) scale(0.8, 0.35);
+    filter: blur(20px);
+    opacity: 0.5px;
+}
+
